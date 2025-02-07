@@ -57,7 +57,7 @@ Example Program Flow
 """
 
 class Bookcollection:
-    def init(self):
+    def __init__(self):
         self.book = {}
 
     def add_book(self, title, quantity):
